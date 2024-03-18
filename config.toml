@@ -1,0 +1,36 @@
+# The URL the site will be built for
+base_url = "https://uit-no.github.io/rtromso"
+
+title = "RTromsø, the R user group at UiT"
+
+description = '''
+Series of meet-ups and workshops for R users at UiT, the Arctic University of Norway
+where we can share knowledge and experiences, and together learn more about R.
+'''
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+
+[markdown]
+
+highlight_code = true
+highlight_theme = "cheerfully-light"
+
+
+[extra]
+
+navigation = [
+  { name = "Home", target = "/" },
+# { name = "About us", target = "/about/" },
+# { name = "Vision", target = "/vision/" },
+# { name = "Courses", target = "/courses/" },
+# { name = "Resources", target = "/resources/" },
+# { name = "Projects", target = "/projects/" },
+# { name = "Blog", target = "/blog/" },
+# { name = "Testimonials", target = "/testimonials/" },
+# { name = "Contact", target = "/contact/" },
+]
