@@ -3,6 +3,12 @@
 
 ## Events
 
+**Next meeting**: May 2, 11:00 - 12:30:
+  - Tutorial and help session
+  - Location: SVHUM E0105 in HSL building at UiT - [View in MazeMap](https://link.mazemap.com/H1i51Mxo)
+
+---
+
 **Our first meeting** (with Pizza!) takes place April 17, 11:00 - 12:30:
   - Location: SVHUM E0101 in HSL building at UiT - [View in MazeMap](https://link.mazemap.com/dFmueM6i)
   - [Register here](https://nettskjema.no/a/rtromso) (not required) to let us know you are coming, and what your pizza preferences are.
