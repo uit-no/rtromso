@@ -4,7 +4,8 @@
 ## Events
 
 **Next meeting**: May 2, 11:00 - 12:30:
-  - Tutorial and help session
+  - Tutorial: Manipulating data with dplyr (the basics)
+  - Help session
   - Location: SVHUM E0105 in HSL building at UiT - [View in MazeMap](https://link.mazemap.com/H1i51Mxo)
 
 ---
