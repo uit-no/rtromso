@@ -1,0 +1,38 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+website:
+  title: "RTromsø - R @ UiT"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: events.qmd
+        text: Events
+      - resources.qmd
+
+
+
+  sidebar:
+    - title: "Events"
+      style: "docked"
+      background: light
+      contents:
+        - events.qmd
+        - 2024-05-07.qmd
+        - 2024-04-17.qmd
+
+
+format:
+  html:
+    theme: lumen
+    css: styles.css
+    toc: true
+    grid:
+      margin-width: 450px
+
+editor: visual
+

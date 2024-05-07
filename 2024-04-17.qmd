@@ -1,0 +1,20 @@
+---
+title: "RTromsø's First Meeting: 2024-04-17"
+---
+
+We were delighted with the turnout at RTromsø's first meeting on 2024-04-17. Held in the SVHUM E0101 auditorium, the meeting was attended by over 65 people from departments across UiT's campus. Pizza was provided by Radovan Bast with funding from the [Research Software Engineering](https://research-software.uit.no/) group at UiT.
+
+Those who attended were invited to respond to polls to give us a better idea about who was attending the meeting. From these we learned that:
+
+-  The three largest roles were researchers, PhD students and Masters students.
+-  The two largest faculties represented were the Faculty of Health Sciences and the Faculty of Biosciences, Fisheries and Economics.
+-  Most attendees described themselves as having limited to moderate experience with R.
+
+When polled attendees' preferences, we observed:
+
+-  Roughly equal interest in presentation, tutorial, help session, and problem solving formats
+-  Slight preference for scheduling meetings on alternating days of the week 
+-  Meeting frequency preference split mostly between every two weeks and every month.
+-  10 people willing to help out at help sessions, 5 willing to give tutorials, and 5 willing help with written materials.
+
+At the end of the meeting, a brief introduction to UiT's [Research Data Portal](https://en.uit.no/research/research-dataportal) was provided by Philipp Conzett.

@@ -1,2 +1,6 @@
-public/
-static/processed_images/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/

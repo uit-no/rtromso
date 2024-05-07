@@ -1,0 +1,13 @@
+---
+title: "RTromsø Events"
+---
+
+Here is a list of previous and upcoming events coordinated by RTromsø:
+
+## Upcoming
+
+-   [2024-05-07](2024-05-07.qmd)- R Help Session (11:00-12:30 at [SVHUM E0102](https://link.mazemap.com/bLl23M2U))
+
+## Previous
+
+-   [2024-04-17](2024-04-17.qmd)- First RTromsø user group meeting

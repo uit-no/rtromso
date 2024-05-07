@@ -1,0 +1,19 @@
+---
+title: "RTromsø: the R user group a UiT"
+---
+
+::: {.column-margin}
+![](RTromso-logo-hex.svg){fig-align="left"}
+:::
+R is a programming language which is especially powerful for statistics, data exploration, and visualization. It is open source and free to use, and has a large and active community of users.
+
+**RTromsø** is a series of meet-ups and workshops for R users at UiT, the Arctic University of Norway where we can share knowledge and experiences, and together learn more about R.
+
+-   [Events](events.qmd) - Next event: (7. may, 11:00-12:30 at [SVHUM E0102](https://link.mazemap.com/ZGPh22t8))
+
+-   [Resources](resources.qmd) - A curated list of useful R videos, books and resources.
+
+If you would like to be added or removed from the RTromsø mailing list, please visit this [page](https://nettskjema.no/a/428883)
+
+----
+RTromsø is administered in coordination with the [Research Software Engineering](https://research-software.uit.no/) group at UiT.

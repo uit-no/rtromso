@@ -1,0 +1,54 @@
+---
+title: "Resources"
+---
+
+There are huge number of R resources and websites available online. Included below are links to some R resources which we like. Please let us know if there are more that should be included!
+
+## Books
+
+Here you will find a variety of R-related books, most with both online and print versions.
+
+### Learning R
+
+-   [R 4 Data Science (2e)](https://r4ds.hadley.nz/) - Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.
+-   [R Programming for Research](https://geanders.github.io/RProgrammingForResearch/) - Brooke Anderson, Rachel Severson, and Nicholas Good
+    -   [YouTube Lectures](https://www.youtube.com/@brookeanderson6781/playlists)
+-   [Data wrangling, exploration, and analysis with R](https://stat545.com/) - Jenny Bryan
+
+### Statistics with R
+
+-   [An Introduction to Statistical Learning with Applications in R (2e)](https://www.statlearning.com/) - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani
+    -   Course: [StanfordOnline: Statistical Learning with R](https://www.edx.org/learn/statistics/stanford-university-statistical-learning)
+-   [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse!](https://moderndive.com/) - Chester Ismay and Albert Y. Kim
+-   [Tidy Modeling with R](https://www.tmwr.org/) - Max Kuhn and Julia Silge
+-   [Applied Statistics Using R: A Guide for the Social Sciences](https://us.sagepub.com/en-us/nam/applied-statistics-using-r/book266647) - [Matthias Mittner](https://uit.no/ansatte/matthias.mittner) \@ UiT (*print only*)
+-   [Innføring i R for statistiske dataanalyser](https://www.universitetsforlaget.no/en/innforing-i-r-for-statistiske-dataanalyser) - [Matthias Mittner](https://uit.no/ansatte/matthias.mittner) \@ UiT (*print only*)
+-   [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/) - Statistics textbook written using Quarto in RStudio ([source code on github](https://github.com/OpenIntroStat/ims))
+-   [Beyond Multiple Linear Regression: *Applied Generalized Linear Models and Multilevel Models in R*](https://bookdown.org/roback/bookdown-BeyondMLR/) *-* Paul Roback and Julie Legler
+
+## R Resources:
+
+-   [Data Science Learning Community](https://dslc.io) - tools and resources for data science, including R and Python.
+
+    -   Weekly data science book clubs - [Website](https://dslc.io/bookclubs.html) / [YouTube](https://www.youtube.com/@dslcvids)
+
+    -   [R Help Slack Channels](https://dslc.io/question_answering.html)
+
+    -   [TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md) - Weekly real-world dataset analyzed by the community
+
+-   [RStudio Education: Finding your way to R](https://education.rstudio.com/learn/)
+
+    -   [A Gentle Introduction to Tidy Statistics in R](https://posit.co/resources/videos/a-gentle-introduction-to-tidy-statistics-in-r/) - 1 hour video webinar by Thomas Mock
+
+-   [R Cheatsheets](https://posit.co/resources/cheatsheets/) - Printable double-sided PDFs summarizing various topics and packages.
+
+-   [Awesome R](https://github.com/qinwf/awesome-R) - A curated list of awesome R packages and tools.
+
+-   [Posit Recipes](https://posit.cloud/learn/recipes) - A collection of R code snippets and instructions featuring up-to-date best practices for coding in R.
+
+## Interactive Tutorials
+
+For these sites, the introductory courses are usually free, while more advanced courses require payment.
+
+-   [DataCamp](https://www.datacamp.com/category/r)
+-   [Codecademy](https://www.codecademy.com/catalog/language/r)
