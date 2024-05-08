@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-Allow: /
 Sitemap: https://uit-no.github.io/rtromso/sitemap.xml

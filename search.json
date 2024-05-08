@@ -1,0 +1,99 @@
+[
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "RTromsø Events",
+    "section": "",
+    "text": "Here is a list of previous and upcoming events coordinated by RTromsø:",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
+  },
+  {
+    "objectID": "events.html#upcoming",
+    "href": "events.html#upcoming",
+    "title": "RTromsø Events",
+    "section": "Upcoming",
+    "text": "Upcoming\n\n2024-05-07- R Help Session (11:00-12:30 at SVHUM E0102)",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
+  },
+  {
+    "objectID": "events.html#previous",
+    "href": "events.html#previous",
+    "title": "RTromsø Events",
+    "section": "Previous",
+    "text": "Previous\n\n2024-04-17- First RTromsø user group meeting",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
+  },
+  {
+    "objectID": "2024-04-17.html",
+    "href": "2024-04-17.html",
+    "title": "RTromsø’s First Meeting: 2024-04-17",
+    "section": "",
+    "text": "We were delighted with the turnout at RTromsø’s first meeting on 2024-04-17. Held in the SVHUM E0101 auditorium, the meeting was attended by over 65 people from departments across UiT’s campus. Pizza was provided by Radovan Bast with funding from the Research Software Engineering group at UiT.\nThose who attended were invited to respond to polls to give us a better idea about who was attending the meeting. From these we learned that:\n\nThe three largest roles were researchers, PhD students and Masters students.\nThe two largest faculties represented were the Faculty of Health Sciences and the Faculty of Biosciences, Fisheries and Economics.\nMost attendees described themselves as having limited to moderate experience with R.\n\nWhen polled attendees’ preferences, we observed:\n\nRoughly equal interest in presentation, tutorial, help session, and problem solving formats\nSlight preference for scheduling meetings on alternating days of the week\nMeeting frequency preference split mostly between every two weeks and every month.\n10 people willing to help out at help sessions, 5 willing to give tutorials, and 5 willing help with written materials.\n\nAt the end of the meeting, a brief introduction to UiT’s Research Data Portal was provided by Philipp Conzett.",
+    "crumbs": [
+      "Events",
+      "RTromsø's First Meeting: 2024-04-17"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RTromsø: the R user group a UiT",
+    "section": "",
+    "text": "R is a programming language which is especially powerful for statistics, data exploration, and visualization. It is open source and free to use, and has a large and active community of users.\nRTromsø is a series of meet-ups and workshops for R users at UiT, the Arctic University of Norway where we can share knowledge and experiences, and together learn more about R.\n\nEvents - Next event: (7. may, 11:00-12:30 at SVHUM E0102)\nResources - A curated list of useful R videos, books and resources.\n\nIf you would like to be added or removed from the RTromsø mailing list, please visit this page\n\nRTromsø is administered in coordination with the Research Software Engineering group at UiT."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "There are huge number of R resources and websites available online. Included below are links to some R resources which we like. Please let us know if there are more that should be included!"
+  },
+  {
+    "objectID": "resources.html#books",
+    "href": "resources.html#books",
+    "title": "Resources",
+    "section": "Books",
+    "text": "Books\nHere you will find a variety of R-related books, most with both online and print versions.\n\nLearning R\n\nR 4 Data Science (2e) - Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund.\nR Programming for Research - Brooke Anderson, Rachel Severson, and Nicholas Good\n\nYouTube Lectures\n\nData wrangling, exploration, and analysis with R - Jenny Bryan\n\n\n\nStatistics with R\n\nAn Introduction to Statistical Learning with Applications in R (2e) - Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani\n\nCourse: StanfordOnline: Statistical Learning with R\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse! - Chester Ismay and Albert Y. Kim\nTidy Modeling with R - Max Kuhn and Julia Silge\nApplied Statistics Using R: A Guide for the Social Sciences - Matthias Mittner @ UiT (print only)\nInnføring i R for statistiske dataanalyser - Matthias Mittner @ UiT (print only)\nIntroduction to Modern Statistics - Statistics textbook written using Quarto in RStudio (source code on github)\nBeyond Multiple Linear Regression: Applied Generalized Linear Models and Multilevel Models in R - Paul Roback and Julie Legler"
+  },
+  {
+    "objectID": "resources.html#r-resources",
+    "href": "resources.html#r-resources",
+    "title": "Resources",
+    "section": "R Resources:",
+    "text": "R Resources:\n\nData Science Learning Community - tools and resources for data science, including R and Python.\n\nWeekly data science book clubs - Website / YouTube\nR Help Slack Channels\nTidyTuesday - Weekly real-world dataset analyzed by the community\n\nRStudio Education: Finding your way to R\n\nA Gentle Introduction to Tidy Statistics in R - 1 hour video webinar by Thomas Mock\n\nR Cheatsheets - Printable double-sided PDFs summarizing various topics and packages.\nAwesome R - A curated list of awesome R packages and tools.\nPosit Recipes - A collection of R code snippets and instructions featuring up-to-date best practices for coding in R."
+  },
+  {
+    "objectID": "resources.html#interactive-tutorials",
+    "href": "resources.html#interactive-tutorials",
+    "title": "Resources",
+    "section": "Interactive Tutorials",
+    "text": "Interactive Tutorials\nFor these sites, the introductory courses are usually free, while more advanced courses require payment.\n\nDataCamp\nCodecademy"
+  },
+  {
+    "objectID": "2024-05-07.html",
+    "href": "2024-05-07.html",
+    "title": "RTromsø Help Session: 2024-05-07",
+    "section": "",
+    "text": "RTromsø’s first help session will be held from 11.00-12.30 at SVHUM E0102 in the HSL building.\nA short tutorial session will be presented using the material from Chapter 3 of R 4 Data Science by Hadley Wickham.\nThe session plan is:\n\n11.00-11.30: Tutorial: Basics of dplyr and Data Frames\n11.30-12.30: R Help Session",
+    "crumbs": [
+      "Events",
+      "RTromsø Help Session: 2024-05-07"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
