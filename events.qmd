@@ -6,7 +6,8 @@ Here is a list of previous and upcoming events coordinated by RTromsø:
 
 ## Upcoming
 
--   [2024-06-13](2024-06-13.qmd) - R Help Session (11:30-13:00 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1))
+-   [2024-06-18](2024-06-18.qmd) - R Tutorial/Help Session (11:30-13:00 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1))
+-   [2024-06-13](2024-06-13.qmd) - R Tutorial/Help Session (11:30-13:00 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1))
 
 ## Previous
 

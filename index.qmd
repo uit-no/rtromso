@@ -10,7 +10,7 @@ R is a programming language which is especially powerful for statistics, data ex
 
 **RTromsø** is a series of meet-ups and workshops for R users at UiT, the Arctic University of Norway where we can share knowledge and experiences, and together learn more about R.
 
--   [Events](events.qmd) - Next event: (13. june, 11:00-12:30 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1))
+-   [Events](events.qmd) - Next event: (13. june, 11:30-13:00 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1))
 
 -   [Resources](resources.qmd) - A curated list of useful R videos, books and resources.
 

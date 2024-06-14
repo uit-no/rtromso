@@ -1,0 +1,12 @@
+---
+title: "RTromsø Help Session: 2024-06-18"
+---
+
+This R help session will be held from 11.30-13.00 at [SVHUM E0104](https://link.mazemap.com/BQVLUVT1) in the HSL building.
+
+A short tutorial session will be presented about how to make use of functions in R.
+
+The session plan is:
+
+-   11.30-12.00: Tutorial: Figuring out functions
+-   12.00-13.00: R Help Session
