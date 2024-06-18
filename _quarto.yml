@@ -13,6 +13,8 @@ website:
       - href: events.qmd
         text: Events
       - resources.qmd
+      - href: tutorials.qmd
+        text: Tutorials
 
 
 

@@ -1,0 +1,7 @@
+---
+title: "RTromsø Tutorials"
+---
+
+Here is a list of tutorials provided by RTromsø:
+
+-   [Figuring out functions](functions.qmd) - Introduction to using and writing functions in R.

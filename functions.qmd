@@ -1,0 +1,95 @@
+---
+title: "Figuring out functions"
+format: html
+engine: knitr
+filters:
+ - webr
+---
+**Note: You can run selected lines of R code by pressing CTRL-Enter after selecting them.**
+
+# Quick Answers
+
+::: panel-tabset
+
+# How do I make a function in R?
+
+Notes:
+
+ * Replace anything starting with `my` with names meaningful to your analysis.
+ * You can have zero or more arguments(inputs) to your function
+ * To return more than one object, put them in a list then return the list.
+
+```{webr-r}
+myFunction <- function(myArg1, myArg2){
+ # Do something with myArg1 and myArg2
+ # and the result of interest in an object
+ # (e.g. vector, list or data frame)
+ myResult <- myArg1 * myArg2
+ 
+ # Return the result object
+ return(myResult)
+}
+
+x <- 5
+y <- 10
+z <- myFunction(x,y)
+print(z)
+
+```
+
+:::
+
+# What is a function?
+
+A function is block of R code can be stored in an object, and can then be run using the name of the object. Functions can be given zero or more R objects to use when running the code block.
+
+Running a function is often referred to as "calling the function". E.g. "You can perform linear regression by calling the lm() function."
+
+Examples of common functions in R include `mean()`, `lm()`, and `summary()`. 
+
+## Parts of a function
+A function has two core parts: its *body*, its argument list (technically called its *formals*).
+
+ - The body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.
+
+ - The argument list contains a list of objects (usually data) that will be made available to the function when it is called.
+ 
+ Here are three examples:
+ 
+::: panel-tabset
+
+# mySum()
+
+```{webr-r}
+# a,b is function's argument list
+mySum <- function(a, b){
+ # the next two lines are the function's body
+ c <- a + b
+ return(c)
+}
+```
+
+# greeting()
+```{webr-r}
+# This function has an empty argument list
+greeting <- function(){
+  # The function body contains only the next line. There is no return() statement.
+  print("Greetings!")
+}
+```
+
+# mean() 
+```{webr-r}
+# This function takes a single argument, x, a numeric vector
+runRegression <- function(dataset){
+  # The body of this function performs linear regression
+  # and returns the adjusted R-squared value.
+  fit <- lm(y ~ x, data=dataset)
+  fit.sum <- fit |> summary()
+  return(fit.sum$adj.r.squared)
+}
+```
+ 
+::: 
+
+
