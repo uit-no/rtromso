@@ -5,19 +5,19 @@ engine: knitr
 filters:
  - webr
 ---
+
 **Note: You can run selected lines of R code by pressing CTRL-Enter after selecting them.**
 
 # Quick Answers
 
 ::: panel-tabset
-
 # How do I make a function in R?
 
 Notes:
 
- * Replace anything starting with `my` with names meaningful to your analysis.
- * You can have zero or more arguments(inputs) to your function
- * To return more than one object, put them in a list then return the list.
+-   Replace anything starting with `my` with names meaningful to your analysis.
+-   You can have zero or more arguments(inputs) to your function
+-   To return more than one object, put them in a list then return the list.
 
 ```{webr-r}
 myFunction <- function(myArg1, myArg2){
@@ -36,7 +36,6 @@ z <- myFunction(x,y)
 print(z)
 
 ```
-
 :::
 
 # What is a function?
@@ -45,19 +44,18 @@ A function is block of R code can be stored in an object, and can then be run us
 
 Running a function is often referred to as "calling the function". E.g. "You can perform linear regression by calling the lm() function."
 
-Examples of common functions in R include `mean()`, `lm()`, and `summary()`. 
+Examples of common functions in R include `mean()`, `lm()`, and `summary()`.
 
-## Parts of a function
-A function has two core parts: its *body*, its argument list (technically called its *formals*).
+# Parts of a function
 
- - The body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.
+A function has two core parts: its argument list (technically called its *formals*) and its *body*.
 
- - The argument list contains a list of objects (usually data) that will be made available to the function when it is called.
- 
- Here are three examples:
- 
+-   The argument list contains a list of objects (usually data) that will be made available to the function when it is called.
+-   The body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.
+
+Here are three examples:
+
 ::: panel-tabset
-
 # mySum()
 
 ```{webr-r}
@@ -67,18 +65,28 @@ mySum <- function(a, b){
  c <- a + b
  return(c)
 }
+
+# Usage example:
+mySum(4,76)
 ```
 
 # greeting()
+
 ```{webr-r}
 # This function has an empty argument list
 greeting <- function(){
   # The function body contains only the next line. There is no return() statement.
-  print("Greetings!")
+  print("Greetings!") 
+
+  # Note: this function does not return an object or value.
 }
+
+# Usage example
+greeting()
 ```
 
-# mean() 
+# mean()
+
 ```{webr-r}
 # This function takes a single argument, x, a numeric vector
 runRegression <- function(dataset){
@@ -88,8 +96,204 @@ runRegression <- function(dataset){
   fit.sum <- fit |> summary()
   return(fit.sum$adj.r.squared)
 }
+
+# Usage example
+myDataframe <- data.frame(x = rnorm(10), y = rnorm(10)) # make a dataframe.
+runRegression(myDataframe)
 ```
- 
-::: 
+
+:::
+
+# Function Part: Argument list
+
+Arguments are the objects that are provided to a function so that it can perform some action using them. There are several important things to know about these arguments.
+
+* Functions can many arguments, or they can have an empty argument list.
+* Function arguments have names.
+* Function arguments can have default values.
+* Function arguments have a specific order.
+
+## Argument Length
+
+::: panel-tabset
+
+# Zero arguments
+
+```{webr-r}
+# This function takes no arguments
+getMonths <- function(){
+  monthNames <- c("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+  return(monthNames)
+}
+
+# Usage example
+getMonths()
+```
+
+# One arguments
+
+```{webr-r}
+# This function takes a single argument 
+greetPerson <- function(personName){
+  message("Hello, ", personName, "!")
+  # Note: This function does not return anything. 
+}
+
+# Usage example
+person <- "John"
+greetPerson(person)
+```
+
+# Two arguments
+
+```{webr-r}
+# This function takes two arguments
+calcBMI <- function(height, weight){
+  BMI <- weight / height^2
+  return(BMI)
+}
+
+# Usage example
+weight <- 65
+calcBMI(1.8, weight)
+```
+
+:::
+
+## Argument names
+
+There are four important things to understand about the names of function arguments:
+
+* To use a named argument when calling a function, put the argument name, and equals sign "=", and then the object/value.
+* Function arguments names lets you rearrange the order of arguments when calling a function.
+* Function argument names are not required when calling a function unless you are rearranging the argument order.
+* The function arguments in the argument list only exist inside the function.
+
+
+::: panel-tabset
+
+
+# Specifying names
+
+```{webr-r}
+triple <- function(myNum){
+  result <- myNum*3
+  return(result)
+}
+
+# Usage Example: No name
+x <- 5
+triple(x)
+
+# Usage Example: Named argument
+x <- 5
+triple(myNum = x)
+
+```
+
+# Rearranging order
+
+```{webr-r}
+printFullName <- function(firstname, middlename, lastname){
+  message("Full Name: ", firstname, " ", middlename, " ", lastname)
+  # This function does not return anything.
+}
+
+# Usage Example: Normal order for arguments (no names)
+printFullName("Jan", "Igor", "Hanssen")
+
+# Usage Example: Rearranged order for arguments (names required)
+printFullName(lastname="Hanssen", firstname="Jan", middlename="Igor")
+
+# Usage Example: Incorrect output (without names)
+printFullName("Hanssen", "Jan", "Igor") # The computer is not psychic.
+
+```
+
+# Names not required
+
+```{webr-r}
+hoursToMinutes <- function(hours){
+  return(hours*60)
+}
+
+# Usage Example: Without names
+hoursToMinutes(2)
+
+# Usage Example: With names
+hoursToMinutes(hours = 2)
+
+# Output is the same.
+
+```
+
+# Arguments only within function
+
+```{webr-r}
+inchesToMeters <- function(inches){
+  meters <- inches * 2.54 / 100
+  return(meters)
+}
+
+# Usage Example: Without names
+x <- inchesToMeters(60)
+# This gives an error, because the meters object only exists inside the function.
+print(meters)
+
+```
+
+:::
+
+# Function Part: Body
+
+# Exercise Set 1: Simple functions
+
+Now try turning the following expressions into simple functions:
+
+::: panel-tabset
+
+# Exercise 1.1
+
+```{webr-r}
+
+# Calculate the cube of a number
+x <- 3
+x*x*x
+
+# Your function
+cubeNum <- function(x){
+  # Put your code here.
+
+}
+
+# Use your function
+
+cubeNum(10)
+
+```
+
+
+# Solution 1.1
+
+```{webr-r}
+
+
+# Your function
+cubeNum <- function(x){
+
+  # Calculate the cube of a number
+  x*x*x
+
+}
+
+# Use your function
+
+cubeNum(10)
+
+```
+
+
+:::
+
 
 
