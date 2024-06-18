@@ -1,53 +1,31 @@
 [
   {
-    "objectID": "2024-06-13.html",
-    "href": "2024-06-13.html",
+    "objectID": "2024-06-18.html",
+    "href": "2024-06-18.html",
+    "title": "RTromsø Help Session: 2024-06-18",
+    "section": "",
+    "text": "This R help session will be held from 11.30-13.00 at SVHUM E0104 in the HSL building.\nA short tutorial session will be presented about how to make use of functions in R.\nThe session plan is:\n\n11.30-12.00: Tutorial: Figuring out functions\n12.00-13.00: R Help Session",
+    "crumbs": [
+      "Events",
+      "RTromsø Help Session: 2024-06-18"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "RTromsø: the R user group a UiT",
+    "section": "",
+    "text": "R is a programming language which is especially powerful for statistics, data exploration, and visualization. It is open source and free to use, and has a large and active community of users.\nRTromsø is a series of meet-ups and workshops for R users at UiT, the Arctic University of Norway where we can share knowledge and experiences, and together learn more about R.\n\nEvents - Next event: (18. june, 11:30-13:00 at SVHUM E0104)\nResources - A curated list of useful R videos, books and resources.\n\nIf you would like to be added or removed from the RTromsø mailing list, please visit this page\n\nRTromsø is administered in coordination with the Research Software Engineering group at UiT."
+  },
+  {
+    "objectID": "2024-06-14.html",
+    "href": "2024-06-14.html",
     "title": "RTromsø Help Session: 2024-06-13",
     "section": "",
-    "text": "This R help session will be held from 11.30-13.00 at SVHUM E0104 in the HSL building.\nA short tutorial session will be presented about how to get subsets of data in R.\nThe session plan is:\n\n11.30-12.00: Tutorial: Subsetting data in R\n12.00-13.00: R Help Session"
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "RTromsø Events",
-    "section": "",
-    "text": "Here is a list of previous and upcoming events coordinated by RTromsø:",
+    "text": "This R help session will be held from 11.30-13.00 at SVHUM E0104 in the HSL building.\nA short tutorial session will be presented about how to get subsets of data in R.\nThe session plan is:\n\n11.30-12.00: Tutorial: Subsetting data in R\n12.00-13.00: R Help Session",
     "crumbs": [
       "Events",
-      "RTromsø Events"
-    ]
-  },
-  {
-    "objectID": "events.html#upcoming",
-    "href": "events.html#upcoming",
-    "title": "RTromsø Events",
-    "section": "Upcoming",
-    "text": "Upcoming\n\n2024-06-18 - R Tutorial/Help Session (11:30-13:00 at SVHUM E0104)\n2024-06-13 - R Tutorial/Help Session (11:30-13:00 at SVHUM E0104)",
-    "crumbs": [
-      "Events",
-      "RTromsø Events"
-    ]
-  },
-  {
-    "objectID": "events.html#previous",
-    "href": "events.html#previous",
-    "title": "RTromsø Events",
-    "section": "Previous",
-    "text": "Previous\n\n2024-04-17 - First RTromsø user group meeting",
-    "crumbs": [
-      "Events",
-      "RTromsø Events"
-    ]
-  },
-  {
-    "objectID": "2024-04-17.html",
-    "href": "2024-04-17.html",
-    "title": "RTromsø’s First Meeting: 2024-04-17",
-    "section": "",
-    "text": "We were delighted with the turnout at RTromsø’s first meeting on 2024-04-17. Held in the SVHUM E0101 auditorium, the meeting was attended by over 65 people from departments across UiT’s campus. Pizza was provided by Radovan Bast with funding from the Research Software Engineering group at UiT.\nThose who attended were invited to respond to polls to give us a better idea about who was attending the meeting. From these we learned that:\n\nThe three largest roles were researchers, PhD students and Masters students.\nThe two largest faculties represented were the Faculty of Health Sciences and the Faculty of Biosciences, Fisheries and Economics.\nMost attendees described themselves as having limited to moderate experience with R.\n\nWhen polled attendees’ preferences, we observed:\n\nRoughly equal interest in presentation, tutorial, help session, and problem solving formats\nSlight preference for scheduling meetings on alternating days of the week\nMeeting frequency preference split mostly between every two weeks and every month.\n10 people willing to help out at help sessions, 5 willing to give tutorials, and 5 willing help with written materials.\n\nAt the end of the meeting, a brief introduction to UiT’s Research Data Portal was provided by Philipp Conzett.",
-    "crumbs": [
-      "Events",
-      "RTromsø's First Meeting: 2024-04-17"
+      "RTromsø Help Session: 2024-06-13"
     ]
   },
   {
@@ -86,17 +64,47 @@
     "text": "Interactive Tutorials\nFor these sites, the introductory courses are usually free, while more advanced courses require payment.\n\nDataCamp\nCodecademy"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "RTromsø: the R user group a UiT",
+    "objectID": "2024-04-17.html",
+    "href": "2024-04-17.html",
+    "title": "RTromsø’s First Meeting: 2024-04-17",
     "section": "",
-    "text": "R is a programming language which is especially powerful for statistics, data exploration, and visualization. It is open source and free to use, and has a large and active community of users.\nRTromsø is a series of meet-ups and workshops for R users at UiT, the Arctic University of Norway where we can share knowledge and experiences, and together learn more about R.\n\nEvents - Next event: (13. june, 11:30-13:00 at SVHUM E0104)\nResources - A curated list of useful R videos, books and resources.\n\nIf you would like to be added or removed from the RTromsø mailing list, please visit this page\n\nRTromsø is administered in coordination with the Research Software Engineering group at UiT."
+    "text": "We were delighted with the turnout at RTromsø’s first meeting on 2024-04-17. Held in the SVHUM E0101 auditorium, the meeting was attended by over 65 people from departments across UiT’s campus. Pizza was provided by Radovan Bast with funding from the Research Software Engineering group at UiT.\nThose who attended were invited to respond to polls to give us a better idea about who was attending the meeting. From these we learned that:\n\nThe three largest roles were researchers, PhD students and Masters students.\nThe two largest faculties represented were the Faculty of Health Sciences and the Faculty of Biosciences, Fisheries and Economics.\nMost attendees described themselves as having limited to moderate experience with R.\n\nWhen polled attendees’ preferences, we observed:\n\nRoughly equal interest in presentation, tutorial, help session, and problem solving formats\nSlight preference for scheduling meetings on alternating days of the week\nMeeting frequency preference split mostly between every two weeks and every month.\n10 people willing to help out at help sessions, 5 willing to give tutorials, and 5 willing help with written materials.\n\nAt the end of the meeting, a brief introduction to UiT’s Research Data Portal was provided by Philipp Conzett.",
+    "crumbs": [
+      "Events",
+      "RTromsø's First Meeting: 2024-04-17"
+    ]
   },
   {
-    "objectID": "2024-06-18.html",
-    "href": "2024-06-18.html",
-    "title": "RTromsø Help Session: 2024-06-18",
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "RTromsø Events",
     "section": "",
-    "text": "This R help session will be held from 11.30-13.00 at SVHUM E0104 in the HSL building.\nA short tutorial session will be presented about how to make use of functions in R.\nThe session plan is:\n\n11.30-12.00: Tutorial: Figuring out functions\n12.00-13.00: R Help Session"
+    "text": "Here is a list of previous and upcoming events coordinated by RTromsø:",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
+  },
+  {
+    "objectID": "events.html#upcoming",
+    "href": "events.html#upcoming",
+    "title": "RTromsø Events",
+    "section": "Upcoming",
+    "text": "Upcoming\n\n2024-06-18 - R Tutorial/Help Session (11:30-13:00 at SVHUM E0104)\n2024-06-14 - R Tutorial/Help Session (11:30-13:00 at SVHUM E0104)",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
+  },
+  {
+    "objectID": "events.html#previous",
+    "href": "events.html#previous",
+    "title": "RTromsø Events",
+    "section": "Previous",
+    "text": "Previous\n\n2024-04-17 - First RTromsø user group meeting",
+    "crumbs": [
+      "Events",
+      "RTromsø Events"
+    ]
   }
 ]
