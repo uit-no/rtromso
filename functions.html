@@ -356,7 +356,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"myFunction <- function(myArg1, myArg2){\n # Do something with myArg1 and myArg2\n # and the result of interest in an object\n # (e.g. vector, list or data frame)\n myResult <- myArg1 * myArg2\n \n # Return the result object\n return(myResult)\n}\n\nx <- 5\ny <- 10\nz <- myFunction(x,y)\nprint(z)","id":1,"options":{"editor-word-wrap":"true","out-width":"700px","dpi":72,"results":"markup","output":"true","message":"true","read-only":"false","fig-width":7,"classes":"","editor-quick-suggestions":"false","comment":"","editor-font-scale":"1","context":"interactive","warning":"true","fig-cap":"","fig-height":5,"autorun":"false","editor-max-height":"","label":"unnamed-chunk-1","out-height":""}},{"code":"# a,b is function's argument list\nmySum <- function(a, b){\n # the next two lines are the function's body\n c <- a + b\n return(c)\n}","id":2,"options":{"editor-word-wrap":"true","out-width":"700px","dpi":72,"results":"markup","output":"true","message":"true","read-only":"false","fig-width":7,"classes":"","editor-quick-suggestions":"false","comment":"","editor-font-scale":"1","context":"interactive","warning":"true","fig-cap":"","fig-height":5,"autorun":"false","editor-max-height":"","label":"unnamed-chunk-2","out-height":""}},{"code":"# This function has an empty argument list\ngreeting <- function(){\n  # The function body contains only the next line. There is no return() statement.\n  print(\"Greetings!\")\n}","id":3,"options":{"editor-word-wrap":"true","out-width":"700px","dpi":72,"results":"markup","output":"true","message":"true","read-only":"false","fig-width":7,"classes":"","editor-quick-suggestions":"false","comment":"","editor-font-scale":"1","context":"interactive","warning":"true","fig-cap":"","fig-height":5,"autorun":"false","editor-max-height":"","label":"unnamed-chunk-3","out-height":""}},{"code":"# This function takes a single argument, x, a numeric vector\nrunRegression <- function(dataset){\n  # The body of this function performs linear regression\n  # and returns the adjusted R-squared value.\n  fit <- lm(y ~ x, data=dataset)\n  fit.sum <- fit |> summary()\n  return(fit.sum$adj.r.squared)\n}","id":4,"options":{"editor-word-wrap":"true","out-width":"700px","dpi":72,"results":"markup","output":"true","message":"true","read-only":"false","fig-width":7,"classes":"","editor-quick-suggestions":"false","comment":"","editor-font-scale":"1","context":"interactive","warning":"true","fig-cap":"","fig-height":5,"autorun":"false","editor-max-height":"","label":"unnamed-chunk-4","out-height":""}}];
+globalThis.qwebrCellDetails = [{"code":"myFunction <- function(myArg1, myArg2){\n # Do something with myArg1 and myArg2\n # and the result of interest in an object\n # (e.g. vector, list or data frame)\n myResult <- myArg1 * myArg2\n \n # Return the result object\n return(myResult)\n}\n\nx <- 5\ny <- 10\nz <- myFunction(x,y)\nprint(z)","id":1,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-1","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# a,b is function's argument list\nmySum <- function(a, b){\n # the next two lines are the function's body\n c <- a + b\n return(c)\n}\n\n# Usage example:\nmySum(4,76)","id":2,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-2","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# This function has an empty argument list\ngreeting <- function(){\n  # The function body contains only the next line. There is no return() statement.\n  print(\"Greetings!\") \n\n  # Note: this function does not return an object or value.\n}\n\n# Usage example\ngreeting()","id":3,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-3","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# This function takes a single argument, x, a numeric vector\nrunRegression <- function(dataset){\n  # The body of this function performs linear regression\n  # and returns the adjusted R-squared value.\n  fit <- lm(y ~ x, data=dataset)\n  fit.sum <- fit |> summary()\n  return(fit.sum$adj.r.squared)\n}\n\n# Usage example\nmyDataframe <- data.frame(x = rnorm(10), y = rnorm(10)) # make a dataframe.\nrunRegression(myDataframe)","id":4,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-4","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# This function takes no arguments\ngetMonths <- function(){\n  monthNames <- c(\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\")\n  return(monthNames)\n}\n\n# Usage example\ngetMonths()","id":5,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-5","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# This function takes a single argument \ngreetPerson <- function(personName){\n  message(\"Hello, \", personName, \"!\")\n  # Note: This function does not return anything. \n}\n\n# Usage example\nperson <- \"John\"\ngreetPerson(person)","id":6,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-6","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# This function takes two arguments\ncalcBMI <- function(height, weight){\n  BMI <- weight / height^2\n  return(BMI)\n}\n\n# Usage example\nweight <- 65\ncalcBMI(1.8, weight)","id":7,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-7","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"triple <- function(myNum){\n  result <- myNum*3\n  return(result)\n}\n\n# Usage Example: No name\nx <- 5\ntriple(x)\n\n# Usage Example: Named argument\nx <- 5\ntriple(myNum = x)","id":8,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-8","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"printFullName <- function(firstname, middlename, lastname){\n  message(\"Full Name: \", firstname, \" \", middlename, \" \", lastname)\n  # This function does not return anything.\n}\n\n# Usage Example: Normal order for arguments (no names)\nprintFullName(\"Jan\", \"Igor\", \"Hanssen\")\n\n# Usage Example: Rearranged order for arguments (names required)\nprintFullName(lastname=\"Hanssen\", firstname=\"Jan\", middlename=\"Igor\")\n\n# Usage Example: Incorrect output (without names)\nprintFullName(\"Hanssen\", \"Jan\", \"Igor\") # The computer is not psychic.","id":9,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-9","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"hoursToMinutes <- function(hours){\n  return(hours*60)\n}\n\n# Usage Example: Without names\nhoursToMinutes(2)\n\n# Usage Example: With names\nhoursToMinutes(hours = 2)\n\n# Output is the same.","id":10,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-10","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"inchesToMeters <- function(inches){\n  meters <- inches * 2.54 / 100\n  return(meters)\n}\n\n# Usage Example: Without names\nx <- inchesToMeters(60)\n# This gives an error, because the meters object only exists inside the function.\nprint(meters)","id":11,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-11","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# Calculate the cube of a number\nx <- 3\nx*x*x\n\n# Your function\ncubeNum <- function(x){\n  # Put your code here.\n\n}\n\n# Use your function\n\ncubeNum(10)","id":12,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-12","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}},{"code":"# Your function\ncubeNum <- function(x){\n\n  # Calculate the cube of a number\n  x*x*x\n\n}\n\n# Use your function\n\ncubeNum(10)","id":13,"options":{"context":"interactive","out-height":"","results":"markup","dpi":72,"autorun":"false","output":"true","read-only":"false","editor-word-wrap":"true","warning":"true","classes":"","label":"unnamed-chunk-13","fig-height":5,"comment":"","out-width":"700px","fig-cap":"","editor-max-height":"","fig-width":7,"message":"true","editor-font-scale":"1","editor-quick-suggestions":"false"}}];
 
 </script>
 <script type="module">
@@ -1608,10 +1608,15 @@ globalThis.qwebrExecuteCode = async function (
    
   <ul>
   <li><a href="#quick-answers" id="toc-quick-answers" class="nav-link active" data-scroll-target="#quick-answers">Quick Answers</a></li>
-  <li><a href="#what-is-a-function" id="toc-what-is-a-function" class="nav-link" data-scroll-target="#what-is-a-function">What is a function?</a>
-  <ul class="collapse">
+  <li><a href="#what-is-a-function" id="toc-what-is-a-function" class="nav-link" data-scroll-target="#what-is-a-function">What is a function?</a></li>
   <li><a href="#parts-of-a-function" id="toc-parts-of-a-function" class="nav-link" data-scroll-target="#parts-of-a-function">Parts of a function</a></li>
+  <li><a href="#function-part-argument-list" id="toc-function-part-argument-list" class="nav-link" data-scroll-target="#function-part-argument-list">Function Part: Argument list</a>
+  <ul class="collapse">
+  <li><a href="#argument-length" id="toc-argument-length" class="nav-link" data-scroll-target="#argument-length">Argument Length</a></li>
+  <li><a href="#argument-names" id="toc-argument-names" class="nav-link" data-scroll-target="#argument-names">Argument names</a></li>
   </ul></li>
+  <li><a href="#function-part-body" id="toc-function-part-body" class="nav-link" data-scroll-target="#function-part-body">Function Part: Body</a></li>
+  <li><a href="#exercise-set-1-simple-functions" id="toc-exercise-set-1-simple-functions" class="nav-link" data-scroll-target="#exercise-set-1-simple-functions">Exercise Set 1: Simple functions</a></li>
   </ul>
 </nav>
     </div>
@@ -1945,12 +1950,13 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>A function is block of R code can be stored in an object, and can then be run using the name of the object. Functions can be given zero or more R objects to use when running the code block.</p>
 <p>Running a function is often referred to as “calling the function”. E.g. “You can perform linear regression by calling the lm() function.”</p>
 <p>Examples of common functions in R include <code>mean()</code>, <code>lm()</code>, and <code>summary()</code>.</p>
-<section id="parts-of-a-function" class="level2">
-<h2 class="anchored" data-anchor-id="parts-of-a-function">Parts of a function</h2>
-<p>A function has two core parts: its <em>body</em>, its argument list (technically called its <em>formals</em>).</p>
+</section>
+<section id="parts-of-a-function" class="level1">
+<h1>Parts of a function</h1>
+<p>A function has two core parts: its argument list (technically called its <em>formals</em>) and its <em>body</em>.</p>
 <ul>
-<li><p>The body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.</p></li>
-<li><p>The argument list contains a list of objects (usually data) that will be made available to the function when it is called.</p></li>
+<li>The argument list contains a list of objects (usually data) that will be made available to the function when it is called.</li>
+<li>The body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.</li>
 </ul>
 <p>Here are three examples:</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
@@ -1970,9 +1976,89 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </div>
 </div>
 </div>
-
-
 </section>
+<section id="function-part-argument-list" class="level1">
+<h1>Function Part: Argument list</h1>
+<p>Arguments are the objects that are provided to a function so that it can perform some action using them. There are several important things to know about these arguments.</p>
+<ul>
+<li>Functions can many arguments, or they can have an empty argument list.</li>
+<li>Function arguments have names.</li>
+<li>Function arguments can have default values.</li>
+<li>Function arguments have a specific order.</li>
+</ul>
+<section id="argument-length" class="level2">
+<h2 class="anchored" data-anchor-id="argument-length">Argument Length</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Zero arguments</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">One arguments</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Two arguments</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div id="qwebr-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div id="qwebr-insertion-location-6"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<div id="qwebr-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+<section id="argument-names" class="level2">
+<h2 class="anchored" data-anchor-id="argument-names">Argument names</h2>
+<p>There are four important things to understand about the names of function arguments:</p>
+<ul>
+<li>To use a named argument when calling a function, put the argument name, and equals sign “=”, and then the object/value.</li>
+<li>Function arguments names lets you rearrange the order of arguments when calling a function.</li>
+<li>Function argument names are not required when calling a function unless you are rearranging the argument order.</li>
+<li>The function arguments in the argument list only exist inside the function.</li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Specifying names</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Rearranging order</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Names not required</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false">Arguments only within function</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<div id="qwebr-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<div id="qwebr-insertion-location-9"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<div id="qwebr-insertion-location-10"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<div id="qwebr-insertion-location-11"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="function-part-body" class="level1">
+<h1>Function Part: Body</h1>
+</section>
+<section id="exercise-set-1-simple-functions" class="level1">
+<h1>Exercise Set 1: Simple functions</h1>
+<p>Now try turning the following expressions into simple functions:</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Exercise 1.1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Solution 1.1</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<div id="qwebr-insertion-location-12"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<div id="qwebr-insertion-location-13"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->

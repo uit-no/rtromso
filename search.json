@@ -93,11 +93,18 @@
     "text": "Note: You can run selected lines of R code by pressing CTRL-Enter after selecting them."
   },
   {
-    "objectID": "functions.html#parts-of-a-function",
-    "href": "functions.html#parts-of-a-function",
+    "objectID": "functions.html#argument-length",
+    "href": "functions.html#argument-length",
     "title": "Figuring out functions",
-    "section": "Parts of a function",
-    "text": "Parts of a function\nA function has two core parts: its body, its argument list (technically called its formals).\n\nThe body of a function contains the code that the function will run. This is usually one or more R expressions, typically followed by a return() statement.\nThe argument list contains a list of objects (usually data) that will be made available to the function when it is called.\n\nHere are three examples:\n\nmySum()greeting()mean()\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "Argument Length",
+    "text": "Argument Length\n\nZero argumentsOne argumentsTwo arguments\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "functions.html#argument-names",
+    "href": "functions.html#argument-names",
+    "title": "Figuring out functions",
+    "section": "Argument names",
+    "text": "Argument names\nThere are four important things to understand about the names of function arguments:\n\nTo use a named argument when calling a function, put the argument name, and equals sign “=”, and then the object/value.\nFunction arguments names lets you rearrange the order of arguments when calling a function.\nFunction argument names are not required when calling a function unless you are rearranging the argument order.\nThe function arguments in the argument list only exist inside the function.\n\n\nSpecifying namesRearranging orderNames not requiredArguments only within function\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "2024-06-14.html",
