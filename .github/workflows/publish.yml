@@ -25,7 +25,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install quarto-webr
-        run: quarto add coatless/quarto-webr
+        run: quarto add coatless/quarto-webr --no-prompt
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
