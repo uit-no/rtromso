@@ -22,7 +22,8 @@ website:
       background: light
       contents:
         - events.qmd
-        - 2024-05-07.qmd
+        - 2024-06-18.qmd
+        - 2024-06-14.qmd
         - 2024-04-17.qmd
 
 
